@@ -10,7 +10,7 @@ class RemoveDuplicate{
 }	
 	//method declaration
 	public static int removeduplicate(int[] arr){
-	int i =1;
+	int i =0;
 	for(int j=1;j<arr.length;j++){
 		if(arr[i]!=arr[j]){
 			i++;
