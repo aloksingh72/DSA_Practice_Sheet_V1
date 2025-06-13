@@ -28,9 +28,6 @@ class RotateArrayByK{
 	int n = arr.length;
 	
 	k = k%n;
-	if(k>n){
-	return;
-	}
 	
 	rotate(arr,0,n-1);
 	rotate(arr,0,k-1);
