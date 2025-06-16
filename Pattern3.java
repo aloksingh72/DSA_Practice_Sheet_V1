@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 class Pattern3{
+	// main method
 	public static void main(String[] args){
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number");
@@ -8,7 +9,7 @@ class Pattern3{
 	right_triangle2(n);
 	
 	}
-	
+	// method calling 
 	public static void right_triangle2(int n){
 		for(int i =0;i<n;i++){
 			int m =1;
