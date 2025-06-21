@@ -10,7 +10,7 @@ class ArrayIsSorted{
 		System.out.println("the given array is sorted:- "+res);
 	}
 	}
-	
+	// method declaration 
 	public static boolean sortedarray(int[] arr){
 	for(int i =0;i<arr.length-1;i++){
 	
