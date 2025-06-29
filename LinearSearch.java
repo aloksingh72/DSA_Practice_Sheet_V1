@@ -13,6 +13,7 @@ class LinearSearch {
  linearsearch(arr,nums);
  
 }
+    // method declaration 
 public static int linearsearch(int[] arr,int nums){
  
    for(int i =0;i<arr.length;i++){
