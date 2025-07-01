@@ -1,4 +1,5 @@
 
+//WAP:- Print the Tribonacci Series 
 import java.util.Scanner;
 class TribonacciSeries {
     public static void main(String[] args) {
