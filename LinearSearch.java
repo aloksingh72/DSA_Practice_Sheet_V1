@@ -1,3 +1,4 @@
+//WAP to sort the array using Linear Search
 import java.util.Scanner;
 class LinearSearch {
     public static void main(String[] args) {
