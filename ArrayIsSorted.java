@@ -1,7 +1,9 @@
 class ArrayIsSorted{
+	
 	public static void main(String[] args){
 	//int[] arr = {1,2,3,4,5,6,7,8,9};
 	int[] arr = {1,4,5,2,6,5,2};
+	//method calling
 	boolean res =  sortedarray(arr);
 	if(res){
 		System.out.println("The given array is sorted:- "+res);
