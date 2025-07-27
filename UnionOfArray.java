@@ -7,6 +7,7 @@ class UnionOfArray {
    unionofarray(arr1,arr2);
  
 }
+//method decalation
 public static void unionofarray(int[] arr1,int[] arr2){
  //because we need dynamic array
  List<Integer> temp = new ArrayList<>();
