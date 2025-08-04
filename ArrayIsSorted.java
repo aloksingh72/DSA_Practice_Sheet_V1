@@ -5,6 +5,7 @@ class ArrayIsSorted{
 	int[] arr = {1,4,5,2,6,5,2};
 	//method calling
 	boolean res =  sortedarray(arr);
+// if conditon applied
 	if(res){
 		System.out.println("The given array is sorted:- "+res);
 	}
