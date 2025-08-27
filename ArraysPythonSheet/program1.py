@@ -1,3 +1,6 @@
+# Print biggest element , smallest elements and their difference from the given array.
+
+
 print("hello")
 a=12
 b=12
