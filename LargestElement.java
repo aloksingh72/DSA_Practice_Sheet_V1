@@ -11,7 +11,7 @@ class LargestElement{
 	System.out.println("The largest element of the aray is: "+res);
 	
 	}
-	
+	//method declaration
 	public static int largestElement(int arr[]){
 		int max =arr[0];
 		for(int i =0;i<=arr.length-1;i++){

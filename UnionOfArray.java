@@ -3,10 +3,12 @@ class UnionOfArray {
     public static void main(String[] args) {
    int[] arr1 = {1,2,3,4,9,9};
    int[] arr2 = {2,2,3,4,5,6,7,8,9};
-   
+
+        //method calling
    unionofarray(arr1,arr2);
  
 }
+//method decalation
 public static void unionofarray(int[] arr1,int[] arr2){
  //because we need dynamic array
  List<Integer> temp = new ArrayList<>();
