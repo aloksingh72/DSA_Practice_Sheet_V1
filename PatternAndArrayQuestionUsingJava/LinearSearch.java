@@ -16,7 +16,7 @@ class LinearSearch {
 }
     // method declaration 
 public static int linearsearch(int[] arr,int nums){
- 
+ // traversing through the loop
    for(int i =0;i<arr.length;i++){
        if(arr[i] == nums){
            System.out.print(nums+" is present at "+i+"th index");
