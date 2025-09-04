@@ -7,6 +7,7 @@ class Pattern3{
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number");
 	int n = sc.nextInt();
+		// method calling
 	right_triangle2(n);
 	
 	}
