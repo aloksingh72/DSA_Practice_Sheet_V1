@@ -1,4 +1,5 @@
 import java.util.Scanner;
+// class for pattern 3
 
 class Pattern3{
 	// main method
