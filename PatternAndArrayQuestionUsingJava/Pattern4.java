@@ -5,10 +5,11 @@ class Pattern4{
 	Scanner sc = new Scanner(System.in);
 	System.out.println("Enter the number");
 	int n = sc.nextInt();
+// function calling
 	right_triangle_number(n);
 	
 	}
-	
+	// function deaclation
 	public static void right_triangle_number(int n){
 		int m =1;
 		for(int i =0;i<n;i++){
