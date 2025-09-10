@@ -8,11 +8,11 @@ class SingleNumber{
 	
 	int[] arr= {1,2,1};
 	
-	
+	// functin calling
 	int res = singlenumber(arr);
 	System.out.println("The single number is "+res);	
 	}
-	
+	// function declaration
 	public static int singlenumber(int[] arr){
 	
 	int element = 0;
