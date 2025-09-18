@@ -10,8 +10,19 @@ def CountEvenStringInArray(A):
             print(str,end=" ")
     return count
 
+def countEven(A):
+    count = 0
+    for str in A:
+        if (len(str))%2==0:
+            count+=1
+            print(str,end ='')
+    return count
 
 if __name__== "__main__":
      A = ["Apple", "Mango", "Banana"]
      
-     CountEvenStringInArray(A)
+    #  CountEvenStringInArray(A)
+     countEven(A)
+
+
+# ------
