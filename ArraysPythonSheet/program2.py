@@ -9,7 +9,7 @@ def CountEvenStringInArray(A):
             count +=1
             print(str,end=" ")
     return count
-
+# function declaration
 def countEven(A):
     count = 0
     for str in A:
@@ -17,7 +17,7 @@ def countEven(A):
             count+=1
             print(str,end ='')
     return count
-
+# this is the main function
 if __name__== "__main__":
      A = ["Apple", "Mango", "Banana"]
      
