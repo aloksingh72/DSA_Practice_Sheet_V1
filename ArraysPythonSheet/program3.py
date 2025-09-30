@@ -7,7 +7,7 @@ def LargestString(A):
             largest = str
     return largest
 
-
+# the main fucntion  declaration
 if __name__=="__main__":
     A=["mango","Banana","Graphes","Lichee"]
     largest = LargestString(A)
