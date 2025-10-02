@@ -2,7 +2,7 @@
 # elements from array.
 
 
-
+# function to check the is prime or not
 def isPrime(num):
     if num <=1:
         return False
@@ -24,7 +24,7 @@ def countPrime(A):
     print("Print the prime numbers in the array:-",prime_list)
     print("the prime numbers count",len(prime_list))
 
-
+# this is the main function 
 if __name__=="__main__":
     A = [10, 2, 3, 4, 5, 7, 9, 11, 13, 15]
     countPrime(A)
