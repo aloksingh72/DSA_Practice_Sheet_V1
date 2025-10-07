@@ -8,7 +8,7 @@ def reverseOrderStart(A):
     for i in range(len(A)):
         print(A[len(A)-1-i],end=" ")
 
-
+# reverese order from end function 
 def reverseOrderEnd(A):
     for i in range(len(A)-1,-1,-1):
         print(A[i],end=" ")
