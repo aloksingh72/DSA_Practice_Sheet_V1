@@ -13,7 +13,7 @@ def reverseOrderEnd(A):
     for i in range(len(A)-1,-1,-1):
         print(A[i],end=" ")
 
-
+# main function
 if __name__=="__main__":
     A = [1,2,3,4,5]
     reverseOrderStart(A)
