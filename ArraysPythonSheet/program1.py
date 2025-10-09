@@ -6,7 +6,7 @@
 # b=12
 # sum = a+b
 # print("The sum of two number",sum)
-
+# function declaration
 def biggestSmallestDifference(A):
     biggest = float('-inf')
     smallest = float('inf')
