@@ -2,6 +2,7 @@
 # number elements from array.
 # Plaindrome:- Same backward as forward
 
+# function  declaration
 def countPlaindrome(A):
     count =0
     for num in A:
@@ -22,7 +23,7 @@ def countPlaindrome(A):
 
 
 
-
+# main function 
 if __name__=="__main__":
     A=[121,544,999,66,83,707]
     countPlaindrome(A)
