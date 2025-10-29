@@ -33,3 +33,13 @@ original_list[1][0]='Y'
 print("============deep copy====")
 print(original_list)
 print(deep_copy)
+
+
+# while conditon
+num = 14
+if num >0:
+    print("num is greater then zero")
+elif num <0:
+    print("the number is negative")
+else:
+    print("the number is zero")
