@@ -137,4 +137,18 @@ say_hello()
 
 print("--------------------------------------------")
 
+# making of the login decorators
+"""
 
+def login_required(view_func):
+    def wrapper(request,*args,**kwargs):
+        if not request.user.is_authenticated:
+            return redirect('login/path')
+        return view_func(request,*args,**kwargs)
+    return wrapper
+
+@login_required
+def profile_view(request):
+    return render(request,'profile.html',{'user':request.user})
+    
+"""
