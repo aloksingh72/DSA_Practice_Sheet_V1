@@ -48,6 +48,7 @@ result = add_lambda(5,6)
 print(result)
 
 
+print("-------------------------------------------------")
 # recusive fucntions
 
 def factorial(n):
@@ -57,4 +58,25 @@ def factorial(n):
         return n * factorial(n-1)
 
 
-factorial(5)
+ans = factorial(5)
+
+print("the factorial of :- ",ans)
+
+
+print("--------------------------------------------------")
+
+def calculate_area(len,width):
+    """
+    this is the dummy calculate area
+    document inside the doc string literials
+
+    """
+    area = len *width
+    return area
+
+area = calculate_area(5,6)
+
+print(calculate_area.__doc__)
+print("the area of  the rectangle",area)
+
+print("----------------------------------------------------")
