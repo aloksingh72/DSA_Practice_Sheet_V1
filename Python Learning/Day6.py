@@ -38,4 +38,54 @@ print(difference_set)
 
 print("------------------------------------------")
 
+# Forzen set
+original_set = {3,4,57,89}
+
+frozen_set = frozenset(original_set)
+print(frozen_set)
+
+try:
+    frozen_set.add(6)
+except AttributeError as e:
+    print(f"Error:{e}")
+
+
+print("original set:",original_set)
+print("Frozen set",frozen_set)
+
+
+print("------------------------------------------")
+
+set1 = {1,2,3,4,5}
+set2 = {5,4}
+
+is_subset_method = set2.issubset(set1)
+print(is_subset_method)
+
+
+print("--------------------------------")
+
+# set comprehension
+squares = {x**2 for x in range(1,6)}
+print("Set of squares",squares)
+
+# list comprehension
+squares_list = [x**2 for x in range(2,7)]
+print("List of squares:- ",squares_list)
+
+print("---------------------------")
+
+# Dictionary 
+
+person={
+    "Name":"John",
+    "Age":25,
+    "City":"Noida"
+}
+
+# acessing values
+print("Name:",person["Name"])
+print("Age:",person["Age"])
+print("City:",person["City"])
+
 
