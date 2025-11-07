@@ -1,5 +1,6 @@
 # Dated:- 5/11/2025/Wednesday   ------ Assignment 8------------
 
+# implementation of Stack by inheriting list class
 class Stack(list):
     def is_empty(self):
         return len(self) ==0
