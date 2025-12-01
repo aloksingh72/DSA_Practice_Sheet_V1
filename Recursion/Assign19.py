@@ -38,3 +38,4 @@ print(sumNodd(10))
 print(sumNEven(10))
 print(fact(5))
 print(sumNSquare(3))
+
