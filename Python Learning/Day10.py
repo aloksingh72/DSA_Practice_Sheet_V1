@@ -40,3 +40,24 @@ print(obj.__private_variable)
 print(obj.__private_method())
 
 # ------------------------------------------------------
+
+class EncapsulationWithProperties:
+    def __init__(self):
+        # Private attribute
+        self._value = 0
+
+    # Getter property
+    @property
+    def value(self):
+        return self._value
+
+    # Setter property
+    @value.setter
+    def value(self, new_value):
+        if new_value >= 0:
+            self._value = new_value
+        else:
+            print("Value must be non-negative. Setting to 0.")
+
+# Creating an instance of the class
+obj = EncapsulationWithProperties()
