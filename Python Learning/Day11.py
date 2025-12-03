@@ -8,7 +8,6 @@ arr = np.array([1,2,3,4])
 
 print(arr*2)
 
-
 # What is Numpy ?
 # ----> NumPy Python ka maths & scientific calculation library hai.
 # ----> Iske andar fast arrays (NumPy arrays) hote hain.
@@ -38,7 +37,7 @@ numpy_time = end -start
 print("Numpy execution time",numpy_time)
 
 
-# -------------------------------------------------------
+# -------------------DATAFRAME------------------------------------
 
 data = {
     "Name":["Alok","Rahul"],
@@ -74,27 +73,9 @@ print(result2)
 
 
 
-class Animal:
-    def __init__(self, name):
-        self.name = name
 
-    def make_sound(self):
-        return "Generic animal sound"
 
-class Dog(Animal):
-    def __init__(self, name, breed):
-        super().__init__(name)
-        self.breed = breed
 
-    def make_sound(self):
-        return "Woof!"
-
-# Creating an instance of the subclass
-dog_instance = Dog("Buddy", "Labrador")
-
-# Accessing attributes
-print(dog_instance.name)   # Output: Buddy
-print(dog_instance.breed)  # Output: Labrador
 
 
 
