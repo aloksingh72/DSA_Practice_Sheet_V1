@@ -1,5 +1,5 @@
 # Dated:- 23/11/2025
-
+# recursion concept
 # Assignment:- 19
 # sum of n natural number through Recursion
 def sumN(n):
@@ -38,4 +38,5 @@ print(sumNodd(10))
 print(sumNEven(10))
 print(fact(5))
 print(sumNSquare(3))
+
 
