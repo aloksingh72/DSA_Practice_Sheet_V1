@@ -42,7 +42,7 @@ print(add_item(2))
 print(add_item(3))
 
 
-print("---------")
+print("------------------------")
 funcs = []
 
 for i in range(3):
