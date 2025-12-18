@@ -43,4 +43,18 @@ b= np.array([2,3,4,8])
 
 print(a+b)
 
+print("----------")
+
+# mathematical formula on dataset
+x = np.array([1,2,3,4])
+y= 3*x**2  + 2*x+1
+print(y)
+
+print("--------2D array multiplication-------------------")
+arr4 = np.array([[1,2,3],[4,5,6]])
+print(arr4 *10)
+
+print("-----------------------")
+
+
 
