@@ -78,3 +78,5 @@ arr = np.array([10, 20, 30, 40, 50])
 mask = arr > 25  #return true or false
 print(mask)
 print(arr[arr>20])
+
+# it returns the array values from the array
