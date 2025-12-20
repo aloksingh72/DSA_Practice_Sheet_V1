@@ -22,7 +22,7 @@ print(arr2)
 arr3 = np.ones(5)
 print(arr3)
 
-# arrange method()
+# arrange method() for the creation of the sequential array 
 arrr3 = np.arange(10)
 print(arrr3)
 
