@@ -80,3 +80,30 @@ print(mask)
 print(arr[arr>20])
 
 # it returns the array values from the array
+
+# check the comparsion to compare the time taken in list creation
+print("------->>>>before using the Numpy---------")
+n = 10000
+m1= [[e for e in range(n)] for i in range(n)]
+m2 = [[e for e in range(n)] for i in range(n)]
+
+
+start = time.time()
+
+for i in range(n):
+    for j in range(n):
+        m1[i][j]+m2[i][j]
+
+end = time.time()
+print("%.6f sec "%(end-start))
+
+
+print("----->>>>after using the Numpy")
+start1 = time.time()
+
+m3 = np.array(m1)
+m4 = np.array(m2)
+m1+m2
+
+end1 = time.time()
+print("%.6f sec"%(end1-start1))
