@@ -22,7 +22,7 @@ print(arr2)
 arr3 = np.ones(5)
 print(arr3)
 
-# arrange method()
+# arrange method() for the creation of the sequential array 
 arrr3 = np.arange(10)
 print(arrr3)
 
@@ -80,6 +80,7 @@ print(mask)
 print(arr[arr>20])
 
 # it returns the array values from the array
+<<<<<<< HEAD
 
 # check the comparsion to compare the time taken in list creation
 print("------->>>>before using the Numpy---------")
@@ -107,3 +108,5 @@ m1+m2
 
 end1 = time.time()
 print("%.6f sec"%(end1-start1))
+=======
+>>>>>>> 87146af31750d9c886e14232addfff9aaf106574
