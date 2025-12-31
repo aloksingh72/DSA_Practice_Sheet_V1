@@ -3,6 +3,9 @@
 
 
 # important example of that affect eh original list and creates new memory location
+from typing import List
+
+
 def modify_list(items):
     items.append(100)
     items = items +[200]
@@ -50,4 +53,22 @@ for i in range(3):
 
 for f in funcs:
     print(f())
-    
+
+
+
+
+print("check if duplicate present------>")
+
+nums = [1,2,3,4,5]
+class Soluton:
+    def containsDuplicate(self,nums:List[int]):
+        seen = set()
+        for i in nums:
+            if i in seen:
+                return True
+            seen.add(i)
+        return False    
+obj = Soluton()
+result1 = obj.containsDuplicate(nums)
+print(result1)
+
