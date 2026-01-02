@@ -51,24 +51,24 @@ print(a+b)
 print("----------")
 
 # mathematical formula on dataset
-x = np.array([1,2,3,4])
-y= 3*x**2  + 2*x+1
-print(y)
+# x = np.array([1,2,3,4])
+# y= 3*x**2  + 2*x+1
+# print(y)
 
 print("--------2D array multiplication-------------------")
-arr4 = np.array([[1,2,3],[4,5,6]])
-print(arr4 *10)
+# arr4 = np.array([[1,2,3],[4,5,6]])
+# print(arr4 *10)
 
 print("-----------check the execution speed of the vectorization numpy uses------------")
 
-arr6 = np.arange(100000)
+# arr6 = np.arange(100000)
 
-start = time.time()
-arr6*2
-end = time.time()
+# start = time.time()
+# arr6*2
+# end = time.time()
 
-resulttime = end-start
-print(resulttime)
+# resulttime = end-start
+# print(resulttime)
 
 
 print("------------Boolean masking")
@@ -83,27 +83,34 @@ print(arr[arr>20])
 
 # check the comparsion to compare the time taken in list creation
 print("------->>>>before using the Numpy---------")
-n = 10000
-m1= [[e for e in range(n)] for i in range(n)]
-m2 = [[e for e in range(n)] for i in range(n)]
+# n = 10000
+# m1= [[e for e in range(n)] for i in range(n)]
+# m2 = [[e for e in range(n)] for i in range(n)]
 
 
-start = time.time()
+# start = time.time()
 
-for i in range(n):
-    for j in range(n):
-        m1[i][j]+m2[i][j]
+# for i in range(n):
+#     for j in range(n):
+#         m1[i][j]+m2[i][j]
 
-end = time.time()
-print("%.6f sec "%(end-start))
+# end = time.time()
+# print("%.6f sec "%(end-start))
 
 
 print("----->>>>after using the Numpy")
-start1 = time.time()
+# start1 = time.time()
 
-m3 = np.array(m1)
-m4 = np.array(m2)
-m1+m2
+# m3 = np.array(m1)
+# m4 = np.array(m2)
+# m1+m2
 
-end1 = time.time()
-print("%.6f sec"%(end1-start1))
+# end1 = time.time()
+# print("%.6f sec"%(end1-start1))
+
+
+# ---------------array manuplation-----------
+a1 = np.array([[1,2,3],[4,5,6],[7,8,9]])
+a2 = np.array([[2,2,2],[1,1,1],[1,1,1]])
+a1+a2
+print("--------->>",a1+a2)
