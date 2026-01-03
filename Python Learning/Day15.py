@@ -113,4 +113,5 @@ print("----->>>>after using the Numpy")
 a1 = np.array([[1,2,3],[4,5,6],[7,8,9]])
 a2 = np.array([[2,2,2],[1,1,1],[1,1,1]])
 a1+a2
+# we can simply add the two arrays there is no need to run the loop
 print("--------->>",a1+a2)
