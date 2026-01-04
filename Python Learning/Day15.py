@@ -115,3 +115,6 @@ a2 = np.array([[2,2,2],[1,1,1],[1,1,1]])
 a1+a2
 # we can simply add the two arrays there is no need to run the loop
 print("--------->>",a1+a2)
+
+# Vectorization in Numpy:- means without using the external loops mathematical operations would be perform
+# this is quite fast as compared to conventional loops method
