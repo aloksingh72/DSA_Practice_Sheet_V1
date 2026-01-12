@@ -2,6 +2,7 @@
 # Recursion Questions
 
 # Ques:-1 print first n natural number 
+# function declaration
 def printNaturalNumber(n):
     if n>0:
         printNaturalNumber(n-1)
@@ -30,6 +31,7 @@ def evenNaturalNoRev(n):
         print(2*n,end=" ")
         evenNaturalNoRev(n-1)
 
+# calling a function  
 printNaturalNumber(10)
 print()
 printNReverse(10)
