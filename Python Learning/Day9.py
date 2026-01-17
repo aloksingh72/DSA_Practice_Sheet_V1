@@ -32,6 +32,7 @@ print("Generator funcitons size",sys.getsizeof(generator_list))
 
 
 # ----------------------------------------------------------------
+# generate_sequence function
 def generate_sequence(limit):
     i = 0
     while i < limit:
